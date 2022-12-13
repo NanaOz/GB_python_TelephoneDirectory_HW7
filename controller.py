@@ -31,8 +31,8 @@ def selection_menu():
 def menu_actions():
     choice = input("Введите цифру: ")
     if choice == '1':
-        sep = choice_separator()
-        importData.import_data(input_data(), sep)
+        separator = choice_separator()
+        importData.import_data(input_data(), separator)
         selection_menu()
     elif choice == '2':
         data = exportData.export_data()
