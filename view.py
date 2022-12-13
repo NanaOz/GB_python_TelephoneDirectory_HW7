@@ -23,13 +23,6 @@ def selection_search_menu():
     return choice
 
 
-# def search_data(search, data): #работает только по поиску фамилии
-#     if len(data) > 0:
-#         for item in data:
-#             if search in item:
-#                 return item
-
-
 def search_data(data):
     choice = selection_search_menu()
     search = input("Введите данные для поиска: ")
