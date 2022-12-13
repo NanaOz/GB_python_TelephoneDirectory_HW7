@@ -39,9 +39,8 @@ def menu_actions():
         view.print_data(data)
         selection_menu()
     elif choice == '3':
-        word = input("Введите фамилию для поиска: ")
         data = exportData.export_data()
-        item = view.search_data(word, data)
+        item = view.search_data(data)
         if item:
             print("ФАМИЛИЯ".center(15), "ИМЯ".center(15),
                   "ОТЧЕСТВО".center(15),
