@@ -6,4 +6,10 @@ def export_data():
             if ',' in line:
                 temp = line.strip().split(',')
                 data.append(temp)
+            elif ';' in line:
+                temp = line.strip().split(';')
+                data.append(temp)
+            elif ':' in line:
+                temp = line.strip().split(':')
+                data.append(temp)
     return data

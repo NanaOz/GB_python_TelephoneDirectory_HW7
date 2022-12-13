@@ -13,7 +13,7 @@ def input_data():
 
 
 def choice_separator():
-    separator = input("Введите разделитель: ")
+    separator = input("Введите разделитель (, ; :): ")
     if separator == "":
         separator = None
     return separator
