@@ -1,4 +1,4 @@
-#нужно доделать под дургие разделитили через re.split(',|;|:') - что то не получилось
+
 def export_data():
     with open('guide.csv', 'r', encoding='utf-8') as file:
         data = []
